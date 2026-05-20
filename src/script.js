@@ -58,7 +58,7 @@ let accion = [
   let aleatorio4 = Math.floor(Math.random() * posesion.length);
   let aleatorio5 = Math.floor(Math.random() * donde.length);
 
-  // creating a sentence (the excuse)
+
   document.querySelector("#excuse").innerHTML = array1 +"  "+ adjetivos[aleatorio1] + " "+ sustantivos[aleatorio2] +" "+ accion[aleatorio3] +" "+ posesion[aleatorio4] +" "+ donde[aleatorio5];
   
 }
